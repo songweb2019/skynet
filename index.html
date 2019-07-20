@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/aside.css">
+  <link rel="stylesheet" href="./css/section.css">
+</head>
+<body>
+<!-- 头部 -->
+<header>
+  <!-- - + 图片 字体 -->
+  <div class="headleft">
+      <button id="btn1">-</button>
+      <img src="./img/head/img_white.png" id="fan"> 
+      <button id="btn2">+</button>
+      <p>S k y N e t</p> 
+      <hr>  
+      <!-- 登录 注册 按钮-->
+      <ul class="headright">
+        <li><a href="javascript:;" id="logins">登录</a></li>
+        <!-- 登录弹窗  -->
+        <div class="alert fade">
+
+            <span class="close">×</span> 
+         </div>
+        <li><a href="javascript:;" id="regis">注册</a></li>
+      </ul>
+  </div>
+</header>
+
+<!-- 动画效果 blank -->
+<div class="blank"><hr></div>
+
+
+
+<!-- 侧边栏 -->
+<aside>
+  <ul>
+    <li>
+      <a href="javascript::">
+        <img src="./img/aside/logo.png">
+      </a>
+    </li>
+    <li>
+      <a href="javascript::">
+        <img src="./img/aside/about.png"> 
+      </a>
+    </li>   
+    <li>
+      <a href="javascript::">
+        <img src="./img/aside/massage.png"> 
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img src="./img/aside/top.png"> 
+      </a>
+    </li>
+  </ul>
+</aside>
+
+<!-- 导航 网页侧边栏-->
+<nav>
+
+     <!-- 标签页头的切换 -->
+     <ul class="tabs">
+        <li class="active">
+           <a href="javascript:;" data-toggle="tab"  data-trigger="dropdown">少女</a>
+           <!-- <ul class="dropdown-menu">
+              <li><a href="javascript:;">空</a></li>
+              <li><a href="javascript:;">图</a></li>
+              <li><a href="javascript:;">网</a></li>
+          </ul> -->
+        </li>
+        <li>
+           <a href="javascript:;" data-toggle="tab">御姐</a>
+        </li>
+        <li>
+           <a href="javascript:;" data-toggle="tab">萝莉</a>
+        </li> 
+      </ul>
+ 
+</nav>
+
+<!-- 网页主体内容 -->
+<section>
+<!-- 优质区 -->
+<div id="content">
+  <!-- 按钮 空空的网 -->
+  <div id="contbtn">
+    <button>空</button>
+    <button>空</button>
+    <button id="contbtn3">的</button>
+    <button>网</button>
+  </div>
+
+  <!-- 双态按钮 -->
+  <div class="arts"> 
+    <p class="up">优质区</p>
+  </div>
+
+  <!--单击切换 img-->
+  <div id="contimgs">
+    <div class="imgs">
+      <img src="./img/1/img1.jpg" alt="1">
+    </div> 
+  </div>
+
+  <!-- 小图片  -->
+  <div class="smallimgs">
+      <img src="./img/2/img1-1.jpg" data-target="./img/2/img1.jpg" class="my-small">
+      <img src="./img/2/img2-2.jpg" data-target="./img/2/img2.jpg" class="my-small"> 
+      <img src="./img/2/img3-3.jpg" data-target="./img/2/img3.jpg" class="my-small"> 
+      <img src="./img/2/img4-4.jpg" data-target="./img/2/img4.jpg" class="my-small"> 
+   </div>
+
+    <!-- 大图片 -->
+    <div class="bigimgs">
+       <img src="./img/2/img1.jpg" class="my-big">
+    </div>
+
+</div>
+
+<!-- 精品内容 -->
+<div id="contentjp">
+    <!-- 双态按钮 -->
+    <div class="arts"> 
+        <p class="up">精品区</p>
+    </div>
+
+   
+</div>
+</section>
+
+
+
+<!-- 脚 -->
+<footer>
+</footer>
+<script src="./js/jquery-1.11.3.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>
