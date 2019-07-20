@@ -1,0 +1,126 @@
+/* 网页主体内容 section */
+section{
+  width: 80%;
+  height:100%;
+  position: relative;
+  margin: 0 auto;
+  margin-top:100px;
+  box-sizing:border-box; 
+  border: 1px solid green; 
+}
+
+/* 双态按钮 */
+#content .arts,#contentjp .arts{
+  width:100%;
+  height:100%;
+  margin-top:5%;
+  /* box-sizing: border-box;
+  border:1px solid red; */
+}
+#content .arts .up,#contentjp .arts .up{
+  width:150px;
+  font-size: 50px;
+  background: #ffffff;
+  color: #1296db;
+  outline: none;
+  border: 0;
+  /* border:1px solid red; */
+  cursor: pointer;
+}
+#content .arts .down,#contentjp .arts .down{
+  background: #1296db;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+/* 优质区 */
+ #content{
+  width: 100%;
+  height:100%;
+  position: relative;
+  /* box-sizing:border-box; 
+  border: 1px solid black; */
+}
+#content #contbtn button{
+  width:10%;
+  height:30px;
+  color: #ffffff;
+  line-height:30px;
+  margin-left:12%;
+  background: #1296db; 
+  outline: none;
+  border: 0;
+  text-align:center;
+}
+
+/* 单击切图片 */
+#content #contimgs{
+  width: 90%;
+  margin: 0 auto;
+  text-align:center;
+  /* box-sizing:border-box; 
+  border: 1px solid red; */
+}
+#content #contimgs .imgs{
+  width:80%;
+  margin: 0 auto;
+  position: relative;
+  /* box-sizing:border-box; 
+  border: 1px solid red; */
+}
+#content #contimgs img{
+  margin-top:5%;
+  width:80%;
+}
+
+/* 小图片 */
+#content .smallimgs{
+  width:100%;
+  margin-top:5%; 
+  text-align:center;
+  /* border: 1px solid red; */
+}
+#content .smallimgs img{
+  width:10%;
+}
+#content .bigimgs{
+  width:100%;
+  text-align:center;
+  margin-top:1%;
+  /* border: 1px solid red; */
+  /* display: none; */
+}
+#content .bigimgs img{
+  width: 50%;
+}
+
+
+/* 精品区 */
+#contentjp{
+  width:100%;
+  height:100%;
+  position:relative;
+  box-sizing: border-box;
+  border:1px solid red; 
+}
+
+
+/* 精品区 内容 */
+#jpimg1,#jpimg2,#jpimg3{
+  width:100px;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+  top:110%;
+  left:50%;
+  margin-left:-50px;
+}
+#jpimg1{
+  background: #f00;
+}
+#jpimg2{
+  background: #0f0;
+}
+#jpimg3{
+  background: #00f;
+}

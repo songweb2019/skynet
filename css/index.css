@@ -1,0 +1,116 @@
+body{
+  width: 100%;
+  height:100%;
+  font-size:16px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+/*blank star*/
+.blank{
+  background:#ffffff;
+}
+.blank>hr{  
+  border: 1px solid #1296db;
+  /* 调用动画 */
+  animation:blanks 5s linear infinite;   
+} 
+/* 动画声明 */
+/* 使用关键帧定义动画 */
+/* blanks */
+@keyframes blanks{
+  0%{width:10%;}
+  20%{width:20%;}
+  30%{width:30%;}
+  40%{width:40%;}
+  50%{width:50%;}
+  60%{width:60%;}
+  70%{width:70%;}
+  80%{width:80%;}
+  90%{width:90%;}
+  100%{width:100%;}
+  90%{width:0%;}
+  80%{width:10%;}
+  70%{width:20%;}
+  60%{width:30%;}
+  50%{width:40%;}
+  40%{width:50%;}
+  30%{width:60%;}
+  20%{width:70%;}
+  10%{width:80%;}
+  0%{width:90%;}
+}
+@-o-keyframes blanks{
+  0%{width:10%;}
+  20%{width:20%;}
+  30%{width:30%;}
+  40%{width:40%;}
+  50%{width:50%;}
+  60%{width:60%;}
+  70%{width:70%;}
+  80%{width:80%;}
+  90%{width:90%;}
+  100%{width:100%;}
+  90%{width:0%;}
+  80%{width:10%;}
+  70%{width:20%;}
+  60%{width:30%;}
+  50%{width:40%;}
+  40%{width:50%;}
+  30%{width:60%;}
+  20%{width:70%;}
+  10%{width:80%;}
+  0%{width:90%;}
+}
+@-moz-keyframes blanks{
+  0%{width:10%;}
+  20%{width:20%;}
+  30%{width:30%;}
+  40%{width:40%;}
+  50%{width:50%;}
+  60%{width:60%;}
+  70%{width:70%;}
+  80%{width:80%;}
+  90%{width:90%;}
+  100%{width:100%;}
+  90%{width:0%;}
+  80%{width:10%;}
+  70%{width:20%;}
+  60%{width:30%;}
+  50%{width:40%;}
+  40%{width:50%;}
+  30%{width:60%;}
+  20%{width:70%;}
+  10%{width:80%;}
+  0%{width:90%;}
+}
+@-webkit-keyframes blanks{
+  0%{width:10%;}
+  20%{width:20%;}
+  30%{width:30%;}
+  40%{width:40%;}
+  50%{width:50%;}
+  60%{width:60%;}
+  70%{width:70%;}
+  80%{width:80%;}
+  90%{width:90%;}
+  100%{width:100%;}
+  90%{width:0%;}
+  80%{width:10%;}
+  70%{width:20%;}
+  60%{width:30%;}
+  50%{width:40%;}
+  40%{width:50%;}
+  30%{width:60%;}
+  20%{width:70%;}
+  10%{width:80%;}
+  0%{width:90%;}
+}
+/*blank end*/
+
+/*header star*/
+/*header end*/
+
+/*navbar star*/
+/*navbar end*/
+

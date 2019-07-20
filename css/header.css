@@ -1,0 +1,116 @@
+/* 网页的头部 header */
+header{
+  height:100px;
+  width: 100%; 
+  background: #1296db;
+  /*box-sizing:border-box; 
+  border: 1px solid green;#ff156e*/
+} 
+ .headleft{
+  width: 80%;
+  height: 100px;
+  color: #ffffff;
+  margin: 0 auto;
+  position: relative;
+  top:0px;
+  left:0px;
+  /* box-sizing:border-box; border: 1px solid blue;   */
+}
+/* 按钮 */
+ .headleft #btn1,#btn2{
+  background: #1296db;
+  border-radius:50%;
+  outline: none;
+  float:left;
+  border:0;
+  margin:0px 18px; 
+  display:none;
+}
+/* 图片 */
+.headleft img{
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  top:15px;
+  left:15px;
+  animation: fan linear infinite;
+  animation-duration:10s;
+}
+/* 字体 */
+.headleft p{
+  /* 
+  border-radius:5px;
+  border: 1px solid #c2c2c2; 
+  */
+  font-size:13px;
+  position:absolute;
+  top:70px;
+  left:10px;
+}
+.headleft hr{
+  width: 83%;
+  color:#ffffff;
+  opacity:0.2;
+  position: absolute;
+  top:40px;
+  right:5px;
+}
+
+/* 登录注册 按钮 */
+.headright{
+  position: absolute;
+  right:0px;
+  bottom:5px;
+  /* box-sizing:border-box; border: 1px solid green; */
+}
+.headright li{
+  margin:5px;
+  float: left;
+  /* box-sizing:border-box; border: 1px solid blue;   */
+}
+.headright li a{
+  color:#ffffff;
+}
+.headright li a:hover{
+  border-bottom: 1px solid #ffffff; 
+}
+
+/* 动画声明 */
+/* 使用关键帧定义动画 */
+/* fan*/
+@keyframes fan{
+  0%{transform: rotate(0deg);}
+  50%{transform: rotate(180deg);}
+  100%{transform: rotate(360deg);}
+}
+@-o-keyframes fan{
+  0%{transform: rotate(0deg);}
+  50%{transform: rotate(180deg);}
+  100%{transform: rotate(360deg);}
+}
+@-moz-keyframes fan{
+  0%{transform: rotate(0deg);}
+  50%{transform: rotate(180deg);}
+  100%{transform: rotate(360deg);}
+}
+@-webkit-keyframes fan{
+  0%{transform: rotate(0deg);}
+  50%{transform: rotate(180deg);}
+  100%{transform: rotate(360deg);}
+}
+
+/* 登录表单 */
+.alert{
+  background:#1296db;
+  color: #ffffff;
+  position: fixed;
+  opacity: 1;
+  z-index:10; 
+}
+.fade{
+  width:500px;
+  height:0px;
+  left:10%;
+  top:10%;
+}
